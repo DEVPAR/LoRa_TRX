@@ -1,2 +1,3 @@
 # LoRa_TRX
-LoRa_TRX proof
+Its a proof of concept for simplex QSO on ESP32_LoRa Boards.
+
