@@ -76,10 +76,11 @@
 
 
 
-//433E6 for Asia
-//866E6 for Europe
-//915E6 for North America
-#define BAND 866E6
+// 433E6 for Asia
+// 866E6 for Europe
+// 915E6 for North America
+// 433775000 testing
+#define BAND 433775000
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);
 
@@ -90,7 +91,7 @@ String message;
 
 void setup() {
   Serial.begin(115200);
-  SerialBT.begin("ESP32_LoRa_TRX_V2.1"); //Bluetooth device name
+  SerialBT.begin("ESP32_LoRa_TRX"); //Bluetooth device name
   Serial.println("Started, pair it with bluetooth!");
 
   //reset OLED display via software
@@ -120,7 +121,7 @@ void setup() {
   //setup LoRa transceiver module
   LoRa.setPins(SS, RST, DIO0);
 
-  if (!LoRa.begin(433775000)) {         //433775000 or BAND
+  if (!LoRa.begin(BAND)) {         //433775000 or BAND
     Serial.println("Starting LoRa failed!");
     while (1);
   }
