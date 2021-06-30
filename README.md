@@ -5,7 +5,7 @@
 
 **Installation:**
 
-Installation on Arduino IDE:
+Installation on Arduino IDE
 
 
 
