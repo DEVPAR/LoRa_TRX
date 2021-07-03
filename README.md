@@ -9,7 +9,11 @@ Using Arduino IDE:
 - Install ESP32 Boards on Arduino IDE 
   - [Install instructions for the ESP32 Board](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 - Install OLED Libraries
+  - Sketch -> Include Library -> Manage Libraries
+  - Search for "SSD1306" from Adafruit in Library Manager -> Install
+  - Search for "GFX Library" from Adafruit in Library Manager -> Install
 - Install LoRa Library
+  - 
 
 
 
