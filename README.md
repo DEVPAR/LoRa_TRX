@@ -13,7 +13,6 @@ Using Arduino IDE:
   - Search for "SSD1306" from Adafruit in Library Manager -> Install
   - Search for "GFX Library" from Adafruit in Library Manager -> Install
 - Install LoRa Library
-  - 
 
 
 
