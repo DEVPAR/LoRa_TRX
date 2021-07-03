@@ -14,12 +14,23 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-//Board setup for LoRa and OLED Pins, comment out the boards you dont use
+
+/*Frequency setup*/
+// 433E6 for Asia
+// 866E6 for Europe
+// 915E6 for North America
+// 433775000 for Ham Radio
+#define BAND 433775000
 
 
+/*Board setup for LoRa and OLED Pins, comment out the boards you dont use*/
+//#define LORA32-V1
+//#define LORA32-V2.1
+  #define LORA32-T-BAEM
+
+#ifdef LORA32-V1
 //Board: LoRa32-V1
 //LoRa and OLED Pins
-/*
 #define SCK 5
 #define MISO 19
 #define MOSI 27
@@ -32,12 +43,12 @@
 #define OLED_RST 16
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-*/
+#endif
 
 
+#ifdef LORA32-V2.1
 //Board: LoRa32-V2.1
 //LoRa and OLED Pins
-/*
 #define SCK 5
 #define MISO 19
 #define MOSI 27
@@ -52,12 +63,12 @@
 #define OLED_RST 16
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-*/
+#endif
 
 
+#ifdef LORA32-T-BEAM
 //Board: LoRa32-T-Beam
 //LoRa and OLED Pins
-
 #define SCK 5
 #define MISO 19
 #define MOSI 27
@@ -72,15 +83,8 @@
 #define OLED_RST 16
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-  
+#endif
 
-
-
-// 433E6 for Asia
-// 866E6 for Europe
-// 915E6 for North America
-// 433775000 testing
-#define BAND 433775000
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);
 
