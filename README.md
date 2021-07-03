@@ -3,7 +3,7 @@
 ## Its a proof of concept to realize half-duplex comunication on ESP32 LoRa Boards.
 
 
-**Installation**
+## Installation
 
 Using Arduino IDE:
 - Install ESP32 Boards on Arduino IDE 
