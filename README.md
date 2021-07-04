@@ -23,3 +23,10 @@
 
 ## Usage
 
+- Sending and receiving messages is done via  serial communication over Bluetooth. 
+- Pair your Smartphone with the ESP32 LoRa-Board.
+- Download The [Serial Bluetooth Terminal APP] (https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en) APP and chose your previously paired device for serial communication.
+- Once you are connected you can start sending and receiving messages over LoRa direct on your cellphone.
+
+
+
