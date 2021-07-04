@@ -30,3 +30,17 @@
 
 
 ## Screenshots
+
+
+![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-34-18.jpg)
+
+
+![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-34-25.jpg)
+
+
+![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-34-29.jpg)
+
+
+![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-34-33.jpg)
+
+
