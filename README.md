@@ -12,7 +12,7 @@
   - Sketch -> Include Library -> Manage Libraries
   - Search for "SSD1306" from Adafruit in Library Manager -> Install
   - Search for "GFX Library" from Adafruit in Library Manager -> Install
-- Install LoRa Library
-
-
+- Install LoRa Library for Semtech SX1276/77/78/79
+  - Sketch -> Include Library -> Manage Libraries
+  - Search for "LoRa" (LoRa by Sandeep Mistry) -> Install
 
