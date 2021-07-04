@@ -32,7 +32,7 @@
 ## Screenshots
 
 
-
+![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-39-47.jpg)
 
 
 ![TRX](https://github.com/DEVPAR/LoRa_TRX/blob/main/photo_2021-07-04_21-34-25.jpg)
