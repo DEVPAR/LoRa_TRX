@@ -5,7 +5,7 @@
 
 ## Installation
 
-Using Arduino IDE:
+**Using Arduino IDE:**
 - Install ESP32 Boards on Arduino IDE 
   - [Install instructions for the ESP32 Board](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 - Install OLED Libraries
