@@ -16,3 +16,6 @@
   - Sketch -> Include Library -> Manage Libraries
   - Search for "LoRa" (LoRa by Sandeep Mistry) -> Install
 
+
+## Usage
+
